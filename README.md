@@ -1,48 +1,76 @@
-# Getting Started with Create React App
+# Teste para vaga de Desenvolvedor Front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto criado como teste para vaga de Desenvolvedor Front-end
 
-## Available Scripts
+## Case
 
-In the project directory, you can run:
+Imagine que a goFlux decidiu investir num produto novo, onde os clientes acessarão o fluxMusic, um site inovador que possibilita descobrir artistas e álbuns do seu gênero preferido, além de ficar por dentro de tudo que acontece no mundo da música.
+
+Para que o projeto seja um sucesso, você foi escolhido para implementar o front do site e lhe foi dada toda a liberdade para criação do layout.
+
+Sendo assim, você deve:
+
+Implementar uma timeline contendo as notícias mais recentes.
+
+Implementar uma página para os artistas renomados.
+
+Implementar uma página para os discos do momentos.
+
+Tudo isso consumindo dados de uma incrível API: http://developers.music-story.com/developers/genre
+
+OBS: Utilizar apenas endpoints sem autenticação.
+
+## Features
+
+- [x] Timeline com as notícias mais recentes do Gênero Jazz (endpoint sem autenticação)
+- [x] Artistas do gênero Rock (endpoint sem autenticação)
+- [x] Discos do gênero Rock (endpoint sem autenticação)
+
+## Get Started
+
+O projeto foi configurado para ser executado na porta 3000 devido a um erro de CORS com a url da API. Pode ser utilizado também com o seguinte comando no Windows:
+
+Win+R -> digitar sem as aspas->  "chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security"
+
+Development:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `npm start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Build:
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm build`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛠 Tecnologias
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `yarn eject`
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [MaterialUI](https://mui.com/)
+- [Axios](https://github.com/axios/axios)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### ScreenShots
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### - Tela Inicial
+![1-TelaInicial](https://user-images.githubusercontent.com/17696663/140974091-15cba119-a016-4a05-b41b-751f473b7975.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### - Selecionar o gênero
+![2-Escolha](https://user-images.githubusercontent.com/17696663/140974094-792eba5c-3417-4ff3-8b0f-2664d7ba7adc.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### - Página de notícias
+![3-PáginaNotícias](https://user-images.githubusercontent.com/17696663/140974096-09903a7a-8f4e-4687-ad49-358da10f698f.png)
 
-## Learn More
+### - Notícia
+![4-Notícia](https://user-images.githubusercontent.com/17696663/140974098-542610f3-193a-4ca1-83eb-d0fd4f4899f1.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### - Página de Álbums
+![5-Albums](https://user-images.githubusercontent.com/17696663/140974099-ea04bc41-8559-4dac-8c14-5bd3da9a589f.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-"# fluxmusic-app" 
-"# fluxmusic-app" 
+### - Página de Artistas
+![6-Artistas](https://user-images.githubusercontent.com/17696663/140974102-2e13c7f7-f027-48b6-a844-defeb05b3470.png)
+
